@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    tools:context="com.kim.daekyung.myapplication.ThirdTestFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_third_text_view_play_rule"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="14"
+            android:text="@string/fragment_third_text_view_player_1"/>
+
+        <EditText
+            android:id="@+id/fragment_third_edit_text_player_1"
+            android:hint="@string/fragment_third_edit_text_hint"
+            android:layout_width="0dp"
+            android:maxLines="1"
+            android:maxLength="19"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_third_text_view_player_2"/>
+
+        <EditText
+            android:id="@+id/fragment_third_edit_text_player_2"
+            android:hint="@string/fragment_third_edit_text_hint"
+            android:layout_width="0dp"
+            android:maxLines="1"
+            android:maxLength="19"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fragment_third_button_execute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_first_button_execute" />
+
+    <TextView
+        android:id="@+id/fragment_third_text_view_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/fragment_third_text_view_result"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Test Application</string>
+
+    <string name="developer_name">DaeKyungKim</string>
+    <string name="email_address">findtheway2589@gmail.com</string>
+
+    <string name="navigation_drawer_title_test_1">Likes Message</string>
+    <string name="navigation_drawer_title_test_2">Reverse with tag</string>
+    <string name="navigation_drawer_title_test_3">Poker hand</string>
+
+    <string name="title_like_message">Likes Message</string>
+    <string name="dialog_button_ok">OK</string>
+
+    <string name="fragment_first_edit_text_hint">input name</string>
+    <string name="fragment_second_edit_text_hint">input HTML</string>
+    <string name="fragment_third_edit_text_hint">input card</string>
+    <string name="fragment_first_button_input">input</string>
+    <string name="fragment_first_button_clear">clear</string>
+    <string name="fragment_first_button_execute">execute</string>
+    <string name="fragment_second_text_view_result">reverse result</string>
+    <string name="fragment_third_text_view_result">poker result</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="toast_back_key">뒤로 버튼을 한번 더 누르시면 종료됩니다.</string>
+
+    <string name="fragment_third_text_view_player_1">player 1</string>
+    <string name="fragment_third_text_view_player_2">player 2</string>
+    <string name="fragment_third_text_view_play_rule">예시 : As 2d 3c 4h 5s\n예시 처럼 카드패를 입력해 주세요.</string>
+    <string name="fragment_third_wrong_card">카드가 잘못되었습니다.\n카드를 확인해 주세요.</string>
+    <string name="fragment_third_winner">승자 : </string>
+    <string name="fragment_third_draw">무승부!</string>
+
+</resources>
